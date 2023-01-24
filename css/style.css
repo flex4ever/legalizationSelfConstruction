@@ -70,6 +70,12 @@ a{
     align-items: center;
     width: 620px;
 }
+.menu-items_txt{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 10px;
+}
 .servies{
     display: flex;
 }
@@ -89,4 +95,9 @@ a{
 }
 .header-search-input:focus{
     outline: none;
+}
+.background-heading{
+    background-color: #FFD200;
+    height: 871px;
+    width: 100%;
 }
