@@ -2,10 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let phoneInputs = document.querySelectorAll('input[data-tel-input]');
 
     let getInputNumbersValue = function (input) {
-        // Return stripped input value — just numbers
         return input.value.replace(/\D/g, '');
     }
-
     let onPhonePaste = function (e) {
         var input = e.target,
             inputNumbersValue = getInputNumbersValue(input);
@@ -13,8 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
         if (pasted) {
             var pastedText = pasted.getData('Text');
             if (/\D/g.test(pastedText)) {
-                // Attempt to paste non-numeric symbol — remove all non-numeric symbols,
-                // formatting will be in onPhoneInput handler
                 input.value = inputNumbersValue;
                 return;
             }
@@ -32,9 +28,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         if (input.value.length != selectionStart) {
-            // Editing in the middle of input, not last symbol
+
             if (e.data && /\D/g.test(e.data)) {
-                // Attempt to input non-numeric symbol
+
                 input.value = inputNumbersValue;
             }
             return;
@@ -62,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
         input.value = formattedInputValue;
     }
     let onPhoneKeyDown = function (e) {
-        // Clear input after remove last symbol
+
         let inputValue = e.target.value.replace(/\D/g, '');
         if (e.keyCode == 8 && inputValue.length == 1) {
             e.target.value = "";
@@ -74,3 +70,20 @@ document.addEventListener("DOMContentLoaded", function () {
         phoneInput.addEventListener('paste', onPhonePaste, false);
     }
 })
+
+
+
+function onEntry(entry) {
+    entry.forEach(change => {
+      if (change.isIntersecting) {
+        change.target.classList.add('element-show');
+      }
+    });
+  }
+  let options = { threshold: [0.5] };
+  let observer = new IntersectionObserver(onEntry, options);
+  let elements = document.querySelectorAll('.third_opacity_block');
+  for (let elm of elements) {
+    observer.observe(elm);
+  }
+
