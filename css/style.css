@@ -342,15 +342,16 @@ input[type="checkbox"] {
 }
 
 a.fourth_block_main_build_img_one {
-    margin-top: 50px;
+    margin-top: 60px;
     background: url(../icon/build-1.svg);
     width: 309px;
     height: 223px;
     background-repeat: no-repeat;
 }
-a.fourth_block_main_build_img_one:hover{
+
+a.fourth_block_main_build_img_one:hover {
     background: url(../icon/build-1-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
 }
 
 
@@ -362,20 +363,21 @@ a.fourth_block_main_build_img_one:hover{
 }
 
 .fourth_block_main_build_img_two {
-    margin-top: 143px;
+margin-top: 80px;
     background-image: url(../icon/build-2.svg);
     width: 169px;
     height: 203px;
     background-repeat: no-repeat;
     background-position: center;
+  
 }
-a.fourth_block_main_build_img_two:hover{
-    background: url(../icon/build-2-1.svg);
-    background-size: cover;
-    transition: all 0.4s ease 0s ;
-    background-repeat: no-repeat;
-    background-position: center;
+
+a.fourth_block_main_build_img_two:hover {
+    background-image: url(../icon/build-2-1.svg);
+    transition: all 0.4s ease 0s;
 }
+
+
 
 .fourth_block_main_decor_four {
     margin-top: 30px;
@@ -402,27 +404,29 @@ a.fourth_block_main_build_img_two:hover{
 }
 
 .fourth_block_main_build_img_three {
-    margin-top: 97px;
+    margin-top: 83px;
     background-image: url(../icon/build-3.svg);
-    width: 317px;
-    height: 144px;
+    width: 315px;
+    height: 139px;
     background-repeat: no-repeat;
 }
-a.fourth_block_main_build_img_three:hover{
+
+a.fourth_block_main_build_img_three:hover {
     background: url(../icon/build-3-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
 }
 
 .fourth_block_main_build_img_four {
-    margin-top: 121px;
+    margin-top: 70px;
     background-image: url(../icon/build-4.svg);
     width: 324px;
-    height: 100.5px;
+    height: 141.5px;
     background-repeat: no-repeat;
 }
-a.fourth_block_main_build_img_four:hover{
+
+a.fourth_block_main_build_img_four:hover {
     background: url(../icon/build-4-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
 }
 
 .fourth_block_main_decor_six {
@@ -483,21 +487,26 @@ a.fourth_block_main_build_img_four:hover{
     height: 148px;
     background-repeat: no-repeat;
 }
-a.fourth_block_main_build_img_five:hover{
+
+a.fourth_block_main_build_img_five:hover {
     background: url(../icon/build-5-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
 }
 
 .fourth_block_main_build_img_six {
     margin-top: 91px;
-    background-image: url(../icon/biuld-6.svg);
+    background-image: url(../icon/build-6.svg);
     width: 317px;
     height: 137px;
     background-repeat: no-repeat;
 }
-a.fourth_block_main_build_img_six:hover{
+
+a.fourth_block_main_build_img_six:hover {
     background: url(../icon/build-6-1.svg);
-    transition: all 0.4s ease 0s ;
+    width: 317px;
+    height: 137px;
+    background-repeat: no-repeat;
+    transition: all 0.4s ease 0s;
 }
 
 .fourth_block_main_decor_ten {
@@ -654,15 +663,19 @@ a.fourth_block_main_build_img_six:hover{
     color: #000000;
 
 }
-.six_block_main_block-flex-two:hover{
-color: #000000;
-}
-.six_block_main_block-flex-two-two:hover{
+
+.six_block_main_block-flex-two:hover {
     color: #000000;
-    }
-    .six_block_main_block-flex-two-one:hover{
-        color: #000000;
-        }
+}
+
+.six_block_main_block-flex-two-two:hover {
+    color: #000000;
+}
+
+.six_block_main_block-flex-two-one:hover {
+    color: #000000;
+}
+
 a.six_block_main_block-icon-one {
     background: url(../icon/icon-1.svg);
     background-position: center;
@@ -674,7 +687,7 @@ a.six_block_main_block-icon-one {
 
 a.six_block_main_block-icon-one:hover {
     background: url(../icon/icon-1-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
 
 }
 
@@ -687,9 +700,10 @@ a.six_block_main_block-icon-one:hover {
     background-repeat: no-repeat;
 
 }
+
 a.six_block_main_block-icon-two:hover {
     background: url(../icon/icon-2-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
 
 }
 
@@ -701,9 +715,10 @@ a.six_block_main_block-icon-two:hover {
     background-repeat: no-repeat;
 
 }
+
 a.six_block_main_block-icon-three:hover {
     background: url(../icon/icon-3-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
 
 }
 
@@ -715,9 +730,10 @@ a.six_block_main_block-icon-three:hover {
     background-repeat: no-repeat;
 
 }
+
 a.six_block_main_block-icon-four:hover {
     background: url(../icon/icon-4-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
 
 }
 
@@ -729,9 +745,10 @@ a.six_block_main_block-icon-four:hover {
     background-repeat: no-repeat;
 
 }
+
 a.six_block_main_block-icon-five:hover {
     background: url(../icon/icon-5-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
 
 }
 
@@ -789,9 +806,10 @@ a.six_block_main_block-icon-five:hover {
     background-repeat: no-repeat;
 
 }
+
 a.six_block_main_block-icon-six:hover {
     background: url(../icon/icon-6-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -805,9 +823,10 @@ a.six_block_main_block-icon-six:hover {
     background-repeat: no-repeat;
 
 }
+
 a.six_block_main_block-icon-seven:hover {
     background: url(../icon/icon-7-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -820,9 +839,10 @@ a.six_block_main_block-icon-seven:hover {
     background-repeat: no-repeat;
 
 }
+
 a.six_block_main_block-icon-eight:hover {
     background: url(../icon/icon-8-1svg.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -836,9 +856,10 @@ a.six_block_main_block-icon-eight:hover {
     background-repeat: no-repeat;
 
 }
+
 a.six_block_main_block-icon-nine:hover {
     background: url(../icon/icon-3-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -851,9 +872,10 @@ a.six_block_main_block-icon-nine:hover {
     background-repeat: no-repeat;
 
 }
+
 a.six_block_main_block-icon-ten:hover {
     background: url(../icon/icon-9-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -867,9 +889,10 @@ a.six_block_main_block-icon-ten:hover {
     background-repeat: no-repeat;
 
 }
+
 a.six_block_main_block-icon-eleven:hover {
     background: url(../icon/icon-10-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -882,9 +905,10 @@ a.six_block_main_block-icon-eleven:hover {
     background-repeat: no-repeat;
 
 }
+
 a.six_block_main_block-icon-twelve:hover {
     background: url(../icon/icon-3-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -897,9 +921,10 @@ a.six_block_main_block-icon-twelve:hover {
     background-repeat: no-repeat;
 
 }
+
 a.six_block_main_block-icon-thirteen:hover {
     background: url(../icon/icon-11-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -912,9 +937,10 @@ a.six_block_main_block-icon-thirteen:hover {
     background-repeat: no-repeat;
 
 }
+
 a.six_block_main_block-icon-fourteen:hover {
     background: url(../icon/icon-3-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -927,9 +953,10 @@ a.six_block_main_block-icon-fourteen:hover {
     background-repeat: no-repeat;
 
 }
+
 a.six_block_main_block-icon-fifteen:hover {
     background: url(../icon/icon-12-1.svg);
-    transition: all 0.4s ease 0s ;
+    transition: all 0.4s ease 0s;
     background-position: center;
     background-repeat: no-repeat;
 }

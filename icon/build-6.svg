@@ -58,19 +58,4 @@
 <rect x="60.5" y="62.5" width="7" height="12" fill="white" stroke="#5B5B5B"/>
 <rect x="53.5" y="108.5" width="7" height="12" fill="white" stroke="#5B5B5B"/>
 <rect x="60.5" y="108.5" width="7" height="12" fill="white" stroke="#5B5B5B"/>
-<rect x="127" y="94" width="63" height="43" fill="#FFD200"/>
-<path d="M172 94L163 130" stroke="#5B5B5B"/>
-<path d="M163 94L172 130" stroke="#5B5B5B"/>
-<path d="M136 130V94" stroke="#5B5B5B"/>
-<path d="M145 130V94" stroke="#5B5B5B"/>
-<path d="M154 130V94" stroke="#5B5B5B"/>
-<path d="M163 130V94" stroke="#5B5B5B"/>
-<path d="M172 130V94" stroke="#5B5B5B"/>
-<path d="M181 130V94" stroke="#5B5B5B"/>
-<path d="M136 112H145" stroke="#5B5B5B"/>
-<path d="M154 112H163" stroke="#5B5B5B"/>
-<path d="M127 130H190" stroke="#5B5B5B"/>
-<path d="M127 94H190" stroke="#5B5B5B"/>
-<path d="M127 94L127 130" stroke="#5B5B5B" stroke-linecap="square"/>
-<path d="M190 94L190 130" stroke="#5B5B5B" stroke-linecap="square"/>
 </svg>
