@@ -363,13 +363,13 @@ a.fourth_block_main_build_img_one:hover {
 }
 
 .fourth_block_main_build_img_two {
-margin-top: 80px;
+    margin-top: 80px;
     background-image: url(../icon/build-2.svg);
     width: 169px;
     height: 203px;
     background-repeat: no-repeat;
     background-position: center;
-  
+
 }
 
 a.fourth_block_main_build_img_two:hover {
@@ -959,4 +959,22 @@ a.six_block_main_block-icon-fifteen:hover {
     transition: all 0.4s ease 0s;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.btn_six_block_main_decor {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #242424;
+}
+.btn_six_block_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+width: 260px;
+height: 50px;
+background: #FFD200;
 }
