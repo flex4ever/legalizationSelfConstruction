@@ -43,6 +43,7 @@
 }
 
 input {
+    font-size: 18px;
     margin-top: 30px;
     width: 260px;
     height: 56px;
@@ -50,23 +51,26 @@ input {
     box-shadow: 0px 2px 7px #C5A408;
     border: 0;
     padding-left: 20px;
-   
+
 }
-input[type="text"]{
-  
+
+input[type="text"] {
     background-image: url(../icon/star.svg);
     background-repeat: no-repeat;
     background-position: bottom 5px right 5px;
 }
-input[type="tel"]{
+
+input[type="tel"] {
     background-image: url(../icon/star.svg);
     background-repeat: no-repeat;
     background-position: bottom 5px right 5px;
 }
-.first_block_main_two-decor-two-one{
+
+.first_block_main_two-decor-two-one {
     display: flex;
     justify-content: center;
 }
+
 ::-webkit-input-placeholder {
     font-size: 18px;
 }
@@ -87,12 +91,87 @@ input[type="tel"]{
 ::-webkit-input-placeholder {
     font-size: 18px;
 }
-.first_block_main_two-inputs{
+
+.first_block_main_two-inputs {
     width: 880px;
     display: flex;
     justify-content: space-between;
 }
-.first_block_main_two-inputs_flex{
+
+.first_block_main_two-inputs_flex {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+.custom-checkbox+label::before {
+    margin-top: 12px;
+    content: '';
+    display: inline-block;
+    width: 17.09px;
+    height: 17px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 7px rgba(197, 164, 8, 0.5);
+}
+.custom-checkbox:checked+label::before {
+    background-image: url("../icon/galka.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.custom-checkbox:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(101, 103, 105, 0.25);
+}
+
+
+
+
+
+.first_block_main_two-btn {
+    margin-top: 30px;
+    width: 881px;
+    height: 56px;
+    background: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first_block_main_two-decor-three {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.first_block_main_two-decor-three:hover {
+    color: #FFD200;
+    transition: all 0.8s ease 0s;
+}
+
+.first_block_main_two-decor-four {
+    margin-left: 10.5px;
+    margin-top: 14px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.first_block_main_two-flex-btn {
+    display: flex;
 }
