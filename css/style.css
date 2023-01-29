@@ -62,3 +62,7 @@ input[type="tel"]{
     background-repeat: no-repeat;
     background-position: bottom 5px right 5px;
 }
+.first_block_main_two-decor-two-one{
+    display: flex;
+    justify-content: center;
+}
