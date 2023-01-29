@@ -49,6 +49,7 @@ input {
     background: #FFFFFF;
     box-shadow: 0px 2px 7px #C5A408;
     border: 0;
+    padding-left: 20px;
    
 }
 input[type="text"]{
@@ -63,6 +64,35 @@ input[type="tel"]{
     background-position: bottom 5px right 5px;
 }
 .first_block_main_two-decor-two-one{
+    display: flex;
+    justify-content: center;
+}
+::-webkit-input-placeholder {
+    font-size: 18px;
+}
+
+::-moz-placeholder {
+    font-size: 18px;
+}
+
+:-moz-placeholder {
+    font-size: 18px;
+
+}
+
+:-ms-input-placeholder {
+    font-size: 18px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 18px;
+}
+.first_block_main_two-inputs{
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+}
+.first_block_main_two-inputs_flex{
     display: flex;
     justify-content: center;
 }
