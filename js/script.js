@@ -27,20 +27,23 @@ let k = 0;
 const slideNext = document.querySelector('.slider-next')
 const slidePrew = document.querySelector('.slider-prev')
 slideNext.addEventListener('click', ()=>{
+    if (i == imgDecor.length){
+        i=0;
+    }
     imgDecor[i].classList.add('active');
     imgDecor[k].classList.remove('active');
     i++;
     k++;
     console.log(i)
     console.log(k)
-    if (i == imgDecor.length){
-        i=0;
-    }
     if (k == imgDecor.length){
         k=0;
     }
 })
 slidePrew.addEventListener('click', ()=>{
+    if (k == 0) {
+        k = imgDecor.length;
+    }
     i--;
     k--;
     imgDecor[i].classList.remove('active');
@@ -51,9 +54,6 @@ slidePrew.addEventListener('click', ()=>{
 
     if (i == 0){
         i = imgDecor.length;
-    }
-    if (k == 0){
-        k = imgDecor.length;
     }
    
 })

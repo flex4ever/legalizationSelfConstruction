@@ -27,7 +27,7 @@
     display: flex;
     position: relative;
     left: 0;
-    transition: all ease 1s;
+    transition: all ease 1.5s;
 
 }
 
@@ -57,7 +57,7 @@
     -ms-filter: grayscale(0%);
     filter: grayscale(0%);
     opacity: 1;
-    transition: all 1s;
+    transition: all 1.5s;
 }
 
 .third_block_main_decor_two {
