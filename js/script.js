@@ -41,22 +41,27 @@ document.querySelector('.slider-next').addEventListener('click', function () {
     }
 });
 document.querySelector('.slider-prev').addEventListener('click', function () {
-    ImgDecor[i].classList.add('active');
-    ImgDecor[k].classList.remove('active');
-    console.log(k);
-    console.log(i);
-    if (i >= 0) {
+    ImgDecor[k].classList.add('active');
+    ImgDecor[i].classList.remove('active');
+    
+    if (i > 0) {
         i--;
-        if (k < i) {
-            k--;
-        }
-    }
-
-
-    //   if (i == 35) {
-    //       i = 0;
-    //   } if (i == 1) {
-    //       k = 0;
-    //       console.log(k);
-    //   }
+        k--;
+        console.log(k);
+        console.log(i);
+    } 
+    
+    if (i <= 0) {
+        i = 35;
+        k = 34;
+        console.log(k);
+        console.log(i);
+    } 
+    
+    if (i == 35 && k == 34) {
+        i--;
+        k--;
+        console.log(k);
+        console.log(i);
+    } 
 });
