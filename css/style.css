@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    margin-left: 310px;
+}
+
+.header-text {
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 100%;
+}
+.point {
+    margin-top: 50px;
+    max-width: 1290px;
+    border-top: 1px solid #BCBCBC;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.point-nomber {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 50px;
+    color: #FFD200;
+    padding-top: 20px;
+}
+.text-in-point{
+display: flex;
+flex-direction: column;
+width: 970px;
+padding-top: 32px;
+
+}
+.header-text-in-point{
+    font-weight: 400;
+font-size: 25px;
+line-height: 100%;
+}
+.under-text-in-point{
+    padding-top: 15px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+}
+.icon{
+    padding-top: 38px;
+}
+.last-point{
+    margin-top: 50px;
+    max-width: 1290px;
+    border-top: 1px solid #BCBCBC;
+    border-bottom: 1px solid #BCBCBC;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+}
+.icon-company{
+margin-top: 50px;
+margin-left: 1040px;
+}
