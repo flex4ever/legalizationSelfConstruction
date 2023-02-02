@@ -34,8 +34,7 @@ slideNext.addEventListener('click', ()=>{
     imgDecor[k].classList.remove('active');
     i++;
     k++;
-    console.log(i)
-    console.log(k)
+ 
     if (k == imgDecor.length){
         k=0;
     }
@@ -48,9 +47,7 @@ slidePrew.addEventListener('click', ()=>{
     k--;
     imgDecor[i].classList.remove('active');
     imgDecor[k].classList.add('active');
-    console.log(i)
-    console.log(k)
-    // console.log(imgDecor)
+   
 
     if (i == 0){
         i = imgDecor.length;
