@@ -612,3 +612,133 @@ margin-top: 250px;
     display: flex;
     justify-content: space-between;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.active{
+    opacity: 1!important;
+    transition: all 0.8s ease;
+}
+.container {
+    /* margin: 0px 300px 0px 300px; */
+    margin: 0 auto;
+    max-width: 1290px;
+}
+
+.description_help-you_block{
+    display: flex;
+    margin-top: 60px;
+}
+.exclimation-marker{
+    opacity: 0;
+}
+.description_help-you{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 140.19%;
+    color: #242424;
+    margin-left: 30px;
+    opacity: 0;
+}
+.heading-text_well-help_txt{
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 96px;
+    color: #242424;
+    margin-top: 50px;
+    opacity: 0;
+}
+.criteries_will-help-you_block{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.crite_will-help_txt{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 139.69%;
+    color: #242424;
+    border-left: 2px solid #FFD200;
+    padding-left: 10px;
+    opacity: 0;
+}
+.line_will-help-you_block{
+    width: 100%;
+    height: 15px;
+    background-color: #FFD200;
+    margin-top: 20px;
+    opacity: 0;
+}
+.criteries_will-help-you_block2{
+    margin-top: 20px;
+    margin-left: 300px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.why-you-object_block{
+    display: flex;
+    justify-content: space-between;
+}
+.why-you-object_block_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.why-you-object_txtBlock:last-of-type{
+    border-bottom: 1px solid #BCBCBC;
+}
+.why-you-object_txtBlock:first-of-type{
+    margin-top: 50px;
+}
+.why-you-object_txtBlock{
+    
+    margin-right: 30px;
+    padding: 20px 0px 20px 0px;
+    border-top: 1px solid #BCBCBC;
+
+}
+.why-you-object_txtHead{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 139.69%;
+}
+.why-you-object_txtDesc{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.69%;
+    margin-top: 10px;
+}
+.why-you-object_btn{
+    width: 410px;
+    height: 70px;
+    margin-top: 30px;
+    background: #FFD200;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.why-you-object_btn p{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 16px;
+}
